@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.seccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.seccion-1,
+.seccion-2 {
+  flex: 4;
+}
+
+.seccion-3 {
+  flex: 2;
+}
+
+.seccion-4 {
+  flex: 1;
+}
+
+.card {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  border-radius: 15px;
+  background: #f2f2f3;
+  box-shadow: -5px -5px 8px #ffffff7a, 5px 5px 8px #a9a9aa7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img,
+.card svg {
+  max-width: 70%;
+  object-fit: contain;
+}
+
+.card-grande {
+  font-size: 150px;
+  text-align: center;
+}
+
+.card-small {
+  font-size: clamp(1rem, 3vw, 2rem);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.botones button {
+  flex: 1;
+  font-size: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  margin: 10px;
+}
+
+.fila-objetivo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 5px 0;
+}
+
+.iconos {
+  display: flex;
+  gap: 4px;
+}
+
+.icono-casa {
+  width: 22px;
+  height: auto;
+}
