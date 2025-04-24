@@ -26,7 +26,7 @@ html, body {
 
 .seccion-1,
 .seccion-2 {
-  flex: 4;
+  flex: 2;
 }
 
 .seccion-3 {
