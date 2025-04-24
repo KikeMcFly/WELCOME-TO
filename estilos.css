@@ -56,8 +56,10 @@ html, body {
 }
 
 .card-grande {
-  font-size: 150px;
+  font-size: clamp(3rem, 20vw, 15rem);
   text-align: center;
+  width: 100%;
+  word-wrap: break-word;
 }
 
 .card-small {
