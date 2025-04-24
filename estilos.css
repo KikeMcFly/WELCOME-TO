@@ -75,7 +75,7 @@ html, body {
 
 .botones button {
   flex: 1;
-  font-size: 40px;
+  font-size: 30px;
   border: none;
   border-radius: 8px;
   background-color: #333;
